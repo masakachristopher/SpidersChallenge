@@ -31,3 +31,5 @@ To deploy to firebase hosting server, run the following command:
 firebase deploy
 ```
 
+## web app url
+Deployment Url is [chat app](https://buibui-chat-app.web.app/).
