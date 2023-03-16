@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Login from '../containers/authentication/Login'
 import Register from '../containers/authentication/Register'
+import Chat from '../containers/Chat'
 import { PrivateRoute } from './PrivateRoute'
 
 const AppRoutes = () => {
@@ -14,6 +15,7 @@ const AppRoutes = () => {
                 path="/chat"
                 element={
                     <PrivateRoute>
+                        <Chat/>
                     </PrivateRoute>
                 }
             />

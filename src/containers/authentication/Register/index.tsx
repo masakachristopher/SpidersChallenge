@@ -1,9 +1,8 @@
-import { EmailAuthCredential } from 'firebase/auth'
 import React, { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import { Link, useNavigate } from 'react-router-dom'
 import { Pathname, Strings } from '../../../constants'
-import { AuthProvider, UserAuth } from '../../../context/AuthContext'
+import { UserAuth } from '../../../context/AuthContext'
 
 const Register = () => {
     const navigate = useNavigate()
@@ -33,16 +32,7 @@ const Register = () => {
                 </h1>
 
                 <form onSubmit={handleSubmit(onRegister)}>
-                    {/* <div>
-                        <label htmlFor='username'>{Strings.username}</label>
-                        <input
-                            {...register("example")}
-                            type='text'
-                            className={`w-full p-2 text-primary border rounded-md outline-none text-sm transition duration-150 ease-in-out mb-4`}
-                            id='username'
-                            placeholder='Your Username'
-                        />
-                    </div> */}
+                    
                     <div>
                         <label htmlFor='email'>{Strings.email}</label>
                         <input
