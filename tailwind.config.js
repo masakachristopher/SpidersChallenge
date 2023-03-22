@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
     colors: {
       'blue': '#1fb6ff',
+      'blue-600': '#1fb6ff',
       'purple': '#7e5bef',
       'pink': '#ff49db',
       'orange': '#ff7849',
@@ -13,11 +14,11 @@ module.exports = {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
-    },
-    fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-    },
+      'black': '#000000',
+      'slate-700': 'rgb(51 65 85)',
+      'white': '#ffffff',
+      'silver': '#C0C0C0'
+    }
   },
   plugins: [],
 }

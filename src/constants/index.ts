@@ -14,6 +14,9 @@ export const Strings = {
   signIn: "Sign In",
   username: "Username",
   signUp: "Sign Up",
+  message: "Write a message",
+  send: "SEND"
+  
 }
 
 export const url = {
